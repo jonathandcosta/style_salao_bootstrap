@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Salão</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand m-0 section-title">Style Hair Salão</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a href="#sobre-o-salao" class="nav-link ">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre o Salão</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#nossos-servicos" class="nav-link">
+              <i class="bi bi-calendar-check me-1"></i>
+              Nossos Serviços</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#fale-conosco" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale Conosco</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-salao">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/tipos/barbershop-slide1.png" alt="foto interna de uma barbearia">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/tipos/barbershop-slide2.png" alt="foto interna de uma barbearia">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/tipos/beauty-slide3.png" alt="foto interna de uma barbearia">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="./img/barber-shop-.jpg" class="dblock w-100 rounded" alt="foto do espaço interno do restaurante">
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">O Nosso <span class="text-colored">Salão</span></h2>
+              <p class="fw-bold fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatum nam voluptatem quibusdam, mollitia itaque corporis odio modi repudiandae voluptates ducimus, consectetur beatae maxime repellendus delectus doloribus dolorum quasi neque.</p>
+              <h3 class="section-title">Os <span class="text-colored">Ambientes</span></h3>
+              <p class="fw-bold fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus earum saepe suscipit labore impedit soluta, vel exercitationem ipsum ab numquam odit veniam cumque tempore at nesciunt animi, voluptatem nostrum aperiam?</p>
+              <ul>
+                <li>Kids</li>
+                <li>Master</li>
+                <li>Champion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="nossos-servicos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Nossos <span class="text-colored">Serviços</span></h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <img src="./img/styles_services/hair-salon.jpg" class="d-block w-100 rounded mb-2" alt="stilos barbeiro">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-gem"></i>
+              Style Hair and Barber
+            </h3>
+            <p class="fw-bold fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae animi reiciendis magni excepturi. Adipisci sed nulla accusamus deleniti harum optio delectus a sit, voluptatem ut, sequi ex temporibus distinctio doloribus!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/styles_services/hair-style.jpg" class="d-block w-100 rounded mb-2" alt="stilo hair">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-flower1"></i>
+              Style Hair
+            </h3>
+            <p class="fw-bold fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae animi reiciendis magni excepturi. Adipisci sed nulla accusamus deleniti harum optio delectus a sit, voluptatem ut, sequi ex temporibus distinctio doloribus!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/styles_services/haircut.jpg" class="d-block w-100 rounded mb-2" alt="Cortes de cabelo">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-fire"></i>
+              Style Hair Curt
+            </h3>
+            <p class="fw-bold fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae animi reiciendis magni excepturi. Adipisci sed nulla accusamus deleniti harum optio delectus a sit, voluptatem ut, sequi ex temporibus distinctio doloribus!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="fale-conosco" class="pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 md-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input type=" text" id="nome" class="form-control fs-4" placeholder="Nome Completo" required>
+              </div>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu E-mail</label>
+                <input type=" email" id="email" class="form-control fs-4" placeholder="nome@gmail.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input type=" tel" id="telefone" class="form-control fs-4" placeholder="(DDD) 9 9999-9999">
+              </div>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu mensagem</label>
+                <textarea class=" form-control fs-4" id="mensagem" placeholder="Digite aqui a sua mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5 mt-3">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <i class="bi bi-facebook text-colored"></i>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <i class="bi bi-instagram text-colored"></i>
+                </li>
+                <li class="fs-5">
+                  <i class="bi bi-whatsapp text-colored"></i>
+                </li>
+                <li class="fs-5">
+                  <a href="https://github.com/jonathandcosta">
+                    <i class="bi bi-github text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-3">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p class="fs-4">Rua do Lindo, 5456 Bairro Nobre - Brasilia</p>
+              <p class="fs-4">(99) 36454-8974</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="footer text-center p-4 mt-5">
+      <p class="fs-4">* Todos os direitos reservados</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
